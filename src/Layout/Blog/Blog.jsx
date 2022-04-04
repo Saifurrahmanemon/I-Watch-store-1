@@ -1,16 +1,16 @@
 import React from "react";
+import { Title } from "../Review/ReviewsStyled";
 import {
     BlogArticle,
     BlogArticleParagraph,
     BlogArticleTitle,
-    BlogTitle,
     BlogWrapper,
 } from "./BlogStyled";
 
 const Blog = () => {
     return (
         <BlogWrapper>
-            <BlogTitle>blog</BlogTitle>
+            <Title>Blog</Title>
             <BlogArticle>
                 <BlogArticleTitle>What is Context API</BlogArticleTitle>
                 <BlogArticleParagraph>

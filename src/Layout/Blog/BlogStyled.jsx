@@ -1,16 +1,11 @@
 import styled from "styled-components";
+
 const BlogWrapper = styled.div`
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 1rem;
 `;
 
-const BlogTitle = styled.h1`
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0 0 1rem;
-    text-align: center;
-`;
 const BlogArticle = styled.article`
     margin: 0 0 1rem;
     border: 1px solid #ccc;
@@ -26,10 +21,4 @@ const BlogArticleParagraph = styled.p`
     font-size: 1rem;
     margin: 0 0 1rem;
 `;
-export {
-    BlogWrapper,
-    BlogTitle,
-    BlogArticle,
-    BlogArticleTitle,
-    BlogArticleParagraph,
-};
+export { BlogWrapper, BlogArticle, BlogArticleTitle, BlogArticleParagraph };
