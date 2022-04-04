@@ -11,8 +11,8 @@ const HomeWrapper = styled.div`
 `;
 
 const TextWrapper = styled.div`
-    text-align: center;
     margin: 4rem;
+    text-align: left;
 `;
 const TextTitle = styled.div`
     text-align: left;

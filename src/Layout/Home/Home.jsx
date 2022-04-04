@@ -26,6 +26,8 @@ const Home = () => {
                 <img src={appleWatch} alt="" />
             </div>
         </HomeWrapper>
+
+        // for review section
     );
 };
 
