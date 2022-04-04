@@ -4,8 +4,9 @@ const ReviewCard = styled.div`
     width: 250px;
     height: 200px;
     padding: 1rem;
+    margin-top: 1rem;
     border-radius: 0.5rem;
-    background-color: #fff;
+    background-color: #d9d9d9;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease-in-out;
     &:hover {
@@ -27,8 +28,9 @@ const CardTitle = styled.p`
     margin: 0.5rem 0;
 `;
 const CardText = styled.p`
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin: 0.5rem 0;
+    color: #4f4f4f;
 `;
 const CardImageContainer = styled.div`
     display: flex;
@@ -37,8 +39,9 @@ const CardImageContainer = styled.div`
     margin: 0.5rem 0;
 `;
 const CardRatings = styled.p`
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin: 0.5rem 0;
+    font-weight: bold;
 `;
 export {
     ReviewCard,

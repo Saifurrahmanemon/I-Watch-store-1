@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const HomeWrapper = styled.div`
+const HomeMainWrapper = styled.div`
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -48,11 +48,40 @@ const TextButton = styled.button`
         transition: 0.5s;
     }
 `;
+const HomeReviewsWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    @media (max-width: 768px) {
+        margin-top: 0;
+    }
+`;
+const HomeReviewsContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+    @media (max-width: 768px) {
+        margin-top: 0;
+        flex-direction: column;
+    }
+`;
+const RedirectButton = styled(TextButton)`
+    background-color: #d8d8d8;
+    width: 18rem;
+    margin-top: 1.2rem;
+`;
 export {
-    HomeWrapper,
+    HomeMainWrapper,
     TextWrapper,
     TextTitle,
     TextTitleTwo,
     TextBody,
     TextButton,
+    HomeReviewsWrapper,
+    HomeReviewsContainer,
+    RedirectButton,
 };

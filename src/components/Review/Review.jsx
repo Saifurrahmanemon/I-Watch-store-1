@@ -17,7 +17,6 @@ const Review = ({ review }) => {
                 <CardImage src={img} alt={name}></CardImage>
                 <CardRatings>{ratings}/10</CardRatings>
             </CardImageContainer>
-
             <CardTitle>{name}</CardTitle>
             <CardText>{text}</CardText>
         </ReviewCard>

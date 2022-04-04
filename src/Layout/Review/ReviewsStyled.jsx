@@ -12,9 +12,14 @@ const Title = styled.h1`
 const ReviewsWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
     grid-gap: 1rem;
     @media (min-width: 768px) {
         grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
     }
 `;
 
