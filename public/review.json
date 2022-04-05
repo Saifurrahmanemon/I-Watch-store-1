@@ -10,35 +10,35 @@
         "id":2,
         "name": "Yvonne",
         "img": "../src/images/customer-image.png",
-        "ratings": 6,
+        "ratings": 3.5,
         "text": "I totally Love my new Apple Watch . It motivates me to challenge myself every day at the gym . I am able to time myself on every equipment ( rowing machine , indoor cycling , the stair stepper etc. ) that I use every day and I try to beat my previous time. "
     },
     {
         "id":3,
         "name": "Mattfl30",
         "img": "../src/images/customer-image.png",
-        "ratings": 9,
+        "ratings": 5,
         "text": "I didn’t think the previous Apple watches were for me but the Series 3 with cellular made me decide to purchase. Still learning how to fully use all capabilities but so far it is a great watch and technology."
     },
     {
         "id":4,
         "name": "Khooey1",
         "img": "../src/images/customer-image.png",
-        "ratings": 7,
+        "ratings": 2,
         "text": "I love the watch. I had the series 2 and upgraded. This watch response time is faster and seems more in line with delivery. I would skip the cellular option if u have your phone near you at all times. The Bluetooth connection is enough."
     },
     {
         "id":5,
         "name": "Panza",
         "img": "../src/images/customer-image.png",
-        "ratings": 8,
+        "ratings": 4.3,
         "text": "I bought my iwatch to test if I will like to use every day and I love it. I was refusing to buy thinking looks unusual but after two weeks I change my mind."
     },
     {
         "id":6,
         "name": "Dae14",
         "img": "../src/images/customer-image.png",
-        "ratings": 9,
+        "ratings": 3.7,
         "text": "This watch is my new favorite thing in the world! Water resistant, comfortable, classy yet casual all at the same time! Absolutely amazing and worth every penny!!!!"
     }
 ]

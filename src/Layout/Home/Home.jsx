@@ -33,7 +33,9 @@ const Home = () => {
                         accomplish a variety of tasks, including making phone
                         calls, sending text messages and reading email.
                     </TextBody>
-                    <TextButton>Watch Live</TextButton>
+                    <TextButton onClick={() => navigate("/dashboard")}>
+                        Watch Live
+                    </TextButton>
                 </TextWrapper>
                 <div>
                     <img src={appleWatch} alt="" />

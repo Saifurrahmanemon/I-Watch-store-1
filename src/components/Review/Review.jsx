@@ -1,9 +1,10 @@
 import React from "react";
+import { FaStar } from "react-icons/fa";
+import Rating from "react-rating";
 import img from "../../images/customer-image.png";
 import {
     CardImage,
     CardImageContainer,
-    CardRatings,
     CardText,
     CardTitle,
     ReviewCard,
@@ -15,7 +16,12 @@ const Review = ({ review }) => {
         <ReviewCard>
             <CardImageContainer>
                 <CardImage src={img} alt={name}></CardImage>
-                <CardRatings>{ratings}/10</CardRatings>
+                <Rating
+                    initialRating={ratings}
+                    emptySymbol={<FaStar />}
+                    fullSymbol={<FaStar style={{ color: "goldenrod" }} />}
+                    readonly
+                ></Rating>
             </CardImageContainer>
             <CardTitle>{name}</CardTitle>
             <CardText>{text}</CardText>

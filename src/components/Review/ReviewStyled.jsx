@@ -38,16 +38,5 @@ const CardImageContainer = styled.div`
     align-items: center;
     margin: 0.5rem 0;
 `;
-const CardRatings = styled.p`
-    font-size: 0.8em;
-    margin: 0.5rem 0;
-    font-weight: bold;
-`;
-export {
-    ReviewCard,
-    CardImage,
-    CardTitle,
-    CardText,
-    CardImageContainer,
-    CardRatings,
-};
+
+export { ReviewCard, CardImage, CardTitle, CardText, CardImageContainer };
