@@ -7,7 +7,7 @@ const BlogWrapper = styled.div`
 `;
 
 const BlogArticle = styled.article`
-    margin: 0 0 1rem;
+    margin: 1rem 3rem;
     border: 1px solid #ccc;
     padding: 1rem;
     border-radius: 20px;
@@ -20,5 +20,6 @@ const BlogArticleTitle = styled.h1`
 const BlogArticleParagraph = styled.p`
     font-size: 1rem;
     margin: 0 0 1rem;
+    color: #4c4c4c;
 `;
 export { BlogWrapper, BlogArticle, BlogArticleTitle, BlogArticleParagraph };

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Title } from "../Review/ReviewsStyled";
 const ChartWrapper = styled.div`
     margin-top: 2rem;
     max-width: 1200px;
@@ -16,4 +17,10 @@ const ChartWrapper = styled.div`
     }
 `;
 
-export { ChartWrapper };
+const ChartTitle = styled(Title)`
+    text-align: center;
+    color: #595959;
+    font-size: 1rem;
+`;
+
+export { ChartWrapper, ChartTitle };
